@@ -25,7 +25,6 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DTMLEJQ79J"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
