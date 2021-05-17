@@ -59,14 +59,14 @@ const BlogPostTemplate = ({ data, location }) => {
             )}
           </li>
         </ul>
-        <script src="https://utteranc.es/client.js"
-        repo="SkuldNorniern/blog-sample"
-        issue-term="pathname"
-        theme="preferred-color-scheme"
-        crossOrigin="anonymous"
-        async>
-        </script>
       </nav>
+      <script src="https://utteranc.es/client.js"
+      repo="SkuldNorniern/blog-sample"
+      issue-term="pathname"
+      theme="preferred-color-scheme"
+      crossOrigin="anonymous"
+      async>
+      </script>
     </Layout>
   )
 }
