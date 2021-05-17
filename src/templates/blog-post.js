@@ -58,6 +58,13 @@ const BlogPostTemplate = ({ data, location }) => {
               </Link>
             )}
           </li>
+            <script src="https://utteranc.es/client.js"
+          repo="SkuldNorniern/blog-sample"
+          issue-term="pathname"
+          theme="preferred-color-scheme"
+          crossorigin="anonymous"
+          async>
+          </script>
         </ul>
       </nav>
     </Layout>
