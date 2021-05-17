@@ -25,14 +25,6 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DTMLEJQ79J"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-DTMLEJQ79J');
-    </script>
       <Seo title="All posts" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
